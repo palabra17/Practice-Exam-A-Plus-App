@@ -1,0 +1,35 @@
+[
+  {
+    "question": "The printer in the accounting department has stopped all printing processes. The print queue shows seven jobs in the queue waiting to be printed. Which of the following would be the BEST next troubleshooting step?",
+    "choices": [
+      "Send a test job to the printer and move it to the top of the queue",
+      "Restart the printer's spooler",
+      "Install an updated version of the printer driver",
+      "Delete everything in the queue and resend the print jobs"
+    ],
+    "correct": "Restart the printer's spooler",
+    "explanation": "The print spooler is the software responsible for storing print jobs and sending them to the printer. If the printer spooler has failed or stopped, none of the print jobs will be sent to the printer."
+  },
+  {
+    "question": "A system administrator has connected an external USB drive to a computer to transfer some documents. On boot, the system tries to boot from the external drive. Which of the following would be the BEST way to prevent the USB drive from booting?",
+    "choices": [
+      "Modify the BIOS to boot from the internal hard drive",
+      "Modify the boot order in Windows Disk Management",
+      "Rebuild the MBR on the external hard drive",
+      "Disable the external drive in Device Manager"
+    ],
+    "correct": "Modify the BIOS to boot from the internal hard drive",
+    "explanation": "The boot order is managed in the BIOS. Moving the internal drive higher in the boot order prevents the computer from trying to boot from an external device."
+  },
+  {
+    "question": "A user's print jobs to a new multifunction printer produce pages of garbled text, but jobs from other users are printing normally. Which of the following would be the MOST likely reason for this issue?",
+    "choices": [
+      "Printer driver specifies secured prints",
+      "Faulty network cable",
+      "Print driver is configured for PCL",
+      "Application is not authorized to print"
+    ],
+    "correct": "Print driver is configured for PCL",
+    "explanation": "If a printer driver is configured for PCL but the printer expects PostScript, the result may be garbled output."
+  }
+]
