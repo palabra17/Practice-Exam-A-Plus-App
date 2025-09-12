@@ -20,7 +20,3 @@ Ensure you have Python and Flask installed on your system.
 Clone this repository to your local machine.
 
 Run the main script from your terminal: python app.py (assuming your main script is named app.py).
-
-Once you have created this repository and added your code and README.md file, we can then update your main online resume to link to both of these new projects. This will turn your resume into a dynamic and impressive portfolio.
-
-Let me know when you've completed these steps for the A+ App, and we can move on to the final step of linking them all together.
